@@ -10,7 +10,7 @@
             }
             header{
                 background: lightblue;
-                padding: 15px, 30px;
+                padding: 8px 25px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -28,7 +28,7 @@
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: 20px;
-                padding: 25px 35px; 
+                padding: 10px 30px;
             }
             h2{
                 font-size: 18px;
@@ -36,7 +36,7 @@
             }
             p{
                 font-size: 13px;
-                margin-top: 10px;
+                margin: 4px 0 5px;
             }
             code{
                 display: block;
@@ -71,6 +71,26 @@
                 <code>$ git init [project name]</code>
                 <p>Download from an existing repository</p>
                 <code>$ git clone my_url</code>
+
+                <h2 style="color: deepskyblue;">Observe your Repository</h2>
+                <p>List new or modified files not yet committed</p>
+                <code>$ git status</code>
+                <p>Show the changes to files not yet staged</p>
+                <code>$ git diff</code>
+                <p>Show the changes to staged files</p>
+                <code>$ git diff --cached</code>
+                <p>Show all staged and unstaged file changes</p>
+                <code>$ git diff HEAD</code>
+                <p>Show the changes between two commit ids</p>
+                <code>$ git diff commit1 commit2</code>
+                <p>List the change dates and authors for a file</p>
+                <code>$ git blame [file]</code>
+                <p>Show the file changes for a commit id and/or file</p>
+                <code>$ git show [commit]:[file]</code>
+                <p>Show full change history</p>
+                <code>$ git log</code>
+                <p>Show change history for file/directory including diffs</p>
+                <code>$ git log -p [file/directory]</code>
             </section>
             <section>
                 
