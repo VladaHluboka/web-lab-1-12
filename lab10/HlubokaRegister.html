@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Форма реєстрації</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                display: flex;
+                flex-direction: column;
+                min-width: 100vh;
+            }
+            header{
+                padding: 15px 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid red;
+                background: lightblue;
+            }
+            header p{
+                font-weight: bold;
+                margin-left: 20px;
+            }
+            nav a{
+                color: black;
+                margin-left: 15px;
+                justify-content: right;
+                text-decoration: none;
+            }
+            main{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+            form{
+                width: 400px;
+                border: 1px solid #ccc;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+            h2{
+                background: lightblue;
+                color: white;
+                padding: 10px;
+                margin: -20px, -20px 15px;
+            }
+            label{
+                font-size: 13px;
+                margin-bottom: 4px;
+            }
+            input, select{
+                padding: 7px;
+                margin-bottom: 12px;
+                border: 1px solid #ccc;
+
+            }
+            button{
+                align-self: flex-end;
+                padding: 7px 15px;
+            }
+            footer{
+                background-color: darkgray;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                font-size: 12px
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Мій особистий блог</h1>
+                <p>Владислава Глубока</p>
+            </div>
+            <nav>
+                <a href="#">Вхід</a>
+                <a href="HlubokaRegister.html">Реєстрація</a>
+            </nav>
+        </header>
+
+        <main>
+            <form action="#" method="post">
+                <h2>Реєстрація користувача</h2>
+
+                <button type="submit">Зареєструватись</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Всі права захищені</p>
+        </footer>
+    </body>
+</html>
